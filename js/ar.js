@@ -145,7 +145,7 @@ $(document).ready(function(){
 
 // ani.... text 
 var typed = new Typed(".typing",{
-    strings:['','Frontend Developer','Backend Developer','Full Stack Developer'],
+    strings:['','مطور وجهه الاماميه','مطور وجهه الخلفية ','مطور ويب'],
     typeSpeed:100,
     backSpeed:60,
     loop:true

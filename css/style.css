@@ -35,15 +35,21 @@ nav .container
 
 .burger
 {
+    cursor: pointer;
     display: none;
+
 }
 
-.burger div
+/* .burger div
 {
     width: 25px;
     height: 4px ;
     background-color: #fff;
     margin-bottom: 5px;
+} */
+.burger i
+{
+    font-size: 23px;
 }
 nav .nav-content ul
 {
@@ -172,6 +178,11 @@ nav .nav-logo h3:hover
     {
         display: none;
     }
+
+    #ar-btn 
+    {
+        font-size: 23px !important;
+    }
  
     nav 
     {
@@ -202,7 +213,8 @@ nav .nav-logo h3:hover
  
     nav ul li 
     {
-        margin-bottom: 80px;
+        /* margin-bottom: 80px; */
+        margin-bottom: 20px;
     }
     nav ul li a 
     {
